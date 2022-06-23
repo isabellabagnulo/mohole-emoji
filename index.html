@@ -30,7 +30,7 @@
           convert() {
             if (this.input != null) {
               fetch(
-                "/api/" +
+                "/api/?" +
                   new URLSearchParams({
                     input: this.input,
                   })
